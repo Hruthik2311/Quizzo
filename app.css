@@ -1,0 +1,26 @@
+body {
+
+    background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    /* background-color: aquamarine; */
+    font-family: 'Charis SIL', serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1 {
+
+    background-color: #bde0fe;
+
+    padding: 5%;
+    border-radius: 5%;
+}
+
+#Fbutton {
+    background-color: #29a0ad5d;
+}

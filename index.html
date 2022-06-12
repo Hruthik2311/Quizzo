@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiizz</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body id="hi">
+
+    <div class="d1 text-center">
+        <h1>Welcome to QUIZZO!</h1>
+        <p>
+            Hey Genius,Wanna try some quiz questions
+        </p>
+        <select id="selected">
+            <option value="0">Select No of Questions</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="12">12</option>
+            <option value="15">15</option>
+        </select><br>
+        <br>
+        <br>
+        <button disabled id="Fbutton">Begin</button>
+    </div>
+
+    <div class="container d2 d-none">
+        <div class="row justify-content-center">
+            <div class="col-6">
+
+                <div class="quizContainer " id="quiz">
+                    <h1 class="text-center" id="text">Question No:<span id="questionNumber"></span></h1>
+                    <hr>
+                    <h3 id="question">question</h3>
+
+                    <input type="radio" id="a" name="options" class="answers" value="a">
+                    <label id="aText" for="a">Option A</label><br>
+                    <input type="radio" id="b" name="options" class="answers" value="b">
+                    <label id="bText" for="b">Option B</label><br>
+                    <input type="radio" id="c" name="options" class="answers" value="c">
+                    <label id="cText" for="c">Option C</label><br>
+                    <input type="radio" id="d" name="options" class="answers" value="d">
+                    <label id="dText" for="d">Option D</label><br>
+                    <button id="submit">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
